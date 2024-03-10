@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+body .nav-js {
+  background-color: black !important;
+  color: white !important;
+}
+body nav .mauro h1 {
+  display: flex;
+  color: white;
+  padding-top: 15px;
+  margin-left: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+body header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid gray;
+}
+body header .imagenTexto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+body header .imagenTexto .logo {
+  display: flex;
+  width: 300px;
+}
+body main .videosIndex {
+  text-align: center;
+}
+body footer {
+  border-top: 1px solid gray;
+  margin-top: 2rem;
+}
+body footer .divFooter {
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+body footer .divFooter .logoFooter {
+  width: 200px;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+body footer .logos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  position: relative;
+  bottom: 50px;
+}
+body footer .logos .imagenFooter {
+  width: 35px;
+  padding: 0.5rem;
+}
+body footer .copy {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+@media only screen and (max-width: 426px) {
+  body header {
+    /* header index */
+  }
+  body header .imagenTexto h2 {
+    display: none;
+  }
+  body header .lista-header {
+    display: none;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+  body nav h1 {
+    display: none;
+  }
+}
+
+main .tituloJugadores {
+  justify-content: center;
+  padding-bottom: 2rem;
+  color: white;
+}
+main section .listas {
+  list-style-type: none;
+}
+main section .listas li {
+  padding-bottom: 0.5rem;
+  text-align: center;
+  list-style-type: decimal;
+}
+main section .listas li a {
+  text-decoration: none;
+  color: white;
+}
+main section .listas li a:hover {
+  background-color: rgb(220, 217, 215);
+  color: black;
+}
+
+main h1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+main p {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 2rem;
+}
+
+main .tituloJugadores {
+  justify-content: center;
+  padding-bottom: 2rem;
+  color: white;
+}
+main section .listas {
+  list-style-type: none;
+}
+main section .listas li {
+  padding-bottom: 0.5rem;
+  text-align: center;
+  list-style-type: decimal;
+}
+main section .listas li a {
+  text-decoration: none;
+  color: white;
+}
+main section .listas li a:hover {
+  background-color: rgb(220, 217, 215);
+  color: black;
+}
+
+.tituloAraujo {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.datos {
+  color: white;
+}
+.datos h2 {
+  margin: 2rem;
+}
+.datos .datosGenerales {
+  margin-left: 3rem;
+}
+.datos .datosGenerales li {
+  color: white;
+  padding-bottom: 1rem;
+  list-style-type: none;
+}
+.datos .trayectoria li {
+  list-style-type: circle;
+}
+
+/*# sourceMappingURL=style.css.map */
