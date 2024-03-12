@@ -1,0 +1,39 @@
+/* Main Araujo */
+
+main {
+    .tituloAraujo {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .datos {
+        color: white;
+
+        h2 {
+            margin: 2rem;
+         }
+
+         ul {
+            margin-left: 3rem;
+
+            li {
+                padding-bottom: 1rem;    
+            }
+        }
+    }
+
+    .datosGenerales {
+
+        h2 {
+            margin: 2rem;
+         }
+
+         .trayectoria {
+
+            li {
+                list-style-type: circle;
+            }
+         }
+    }
+    
+}

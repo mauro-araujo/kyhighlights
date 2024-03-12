@@ -1,0 +1,439 @@
+
+
+/* HEADER */
+header {
+   
+}
+/* imagen logo */
+Header div {
+  
+
+    
+}
+
+headerdiv {
+   
+}
+
+
+
+
+
+header div 
+
+/* navegador header */
+
+
+.headerSmarth {
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    width: 30px;
+    padding-right: 8px;
+    padding-top: 15px;
+}
+
+/* NAV JS */
+.nav-js {
+   
+}
+
+/* Main */
+
+
+        /* Main quines somos */
+
+
+p {
+   
+}   
+        /*Main Jugadores  */
+
+
+
+.listas li {
+
+}
+
+.listas 
+
+.listas li 
+
+/* MAIN Contactos */
+
+
+
+
+
+
+
+
+.numero 
+
+
+
+
+
+
+
+
+
+.formulario 
+
+
+
+
+
+
+/* MAIN Araujo */
+
+
+
+
+.datos 
+
+.datos 
+
+.datos 
+
+.datosGenerales 
+
+.trayectoria li {
+    
+}
+
+.sectionVideos {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+ .tituloVideo {
+    display: block;
+    color: white;
+    margin: 2rem;
+}
+
+.videos {
+    margin: 2rem;
+}
+
+/* videos mobile */
+
+.videosMobile {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+   
+}
+
+footer img {
+    
+
+}
+    
+
+
+
+
+
+
+
+
+
+.carruselCentrado {
+    display:inline;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* First mobile */
+@media only screen and (max-width: 426px){
+    body{
+        background-color: black;
+    }
+    .lista-header {
+         display: none;
+    } 
+    .tituloMobile { 
+        display: none;
+    }
+    /* TItulo para PC y Tablet */
+    .tituloPC {
+        display: none;
+    }
+
+    /* cambia de lado los item del menu desplegable*/
+    .items { 
+        text-align: right;
+    }
+
+    .navbar {
+        position: sticky;
+        top: 0;
+    }
+
+
+    /* carrusel  */
+
+    .carruselDesktop {
+        display: none;
+    }
+
+
+    .sacarCarrusel {
+        display: none;
+    }
+
+    
+
+    .carruselTablet {
+        text-align: center;
+    }
+
+
+} 
+
+
+/* hasta tablet */
+
+@media only screen and (min-width: 426px) and (max-width: 1023px){
+    body{
+        background-color: black
+    }
+
+    h1 {
+        display: none;
+    }
+    
+  
+    /* NAV BOOTSTRAP */
+
+    .navbar { /* esta en el nav principal */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+    
+    .items { /* cambia de lado el los item del menu */
+        text-align: right;
+    }
+
+    .mauro {/* cambia de lugar la img del menu */
+        justify-content: right !important;
+
+    }
+
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+    /* ---------------- */
+
+    .lista-header { display: none;}
+
+    .videosIndex iframe {
+        width: 330px;
+        height: 250px;
+        margin: 1rem;
+    }
+
+    /* main jugadores */
+    .listaJugadores {  
+        display: flex;
+        justify-content: center;
+    }
+
+    .tituloJugadores {
+        text-align: center;
+        color: white;
+        padding-top: 3em;
+    }
+
+    .listas a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .listas li {
+        padding-bottom: 1rem;
+        color: white;
+        list-style-type: disc;
+    } 
+
+    .listas {
+        margin: 2rem;
+    }
+
+    /* MAIN Contactos */
+
+    .consulta {
+        display: block;
+    }
+
+    textarea {
+        width: 75%;
+    }
+
+    /* MAIN ARAUJO */
+
+    .listas li a {
+        display: flex;
+        text-align: left;
+    }
+
+
+    /* Videos Araujo */
+    .carruselDesktop {
+        display: none;
+    }
+
+    .carruselTablet {
+        text-align: center;
+    }
+  
+
+    .sacarCarrusel {
+        display: none;
+    }
+
+    .videosTablet {
+        text-align: center;
+        justify-content: center;
+    }
+
+
+}
+
+
+/* DESKTOP EN ADELANTE */
+@media only screen and (min-width: 1024px){
+
+    .navbar {
+        display: none;
+    }
+
+    .headerSmarth {
+        display: none;
+    }
+    .lista-header {
+        display: flex; 
+        justify-content: end;
+        margin-bottom: 10px;
+    }
+    .lista-header ul{
+        display: flex;
+        list-style-type: none;
+    }
+
+    .lista-header ul li a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+    }
+
+    .videosIndex iframe {
+        margin: 1rem;
+    }
+    
+    .parrafo {
+        text-align: left;
+    }
+
+    .videosIndex iframe {
+        width: 350px;
+        height: 300px;
+    }
+
+    iframe:hover {
+        transform: scale(1.1);
+    }
+
+    .agrandar:hover {
+        transform: scale(1.1);
+    }
+    /* main jugadores */
+.listaJugadores {  
+    display: flex;
+    justify-content: space-around;
+}
+
+.tituloJugadores {
+    text-align: center;
+    color: white;
+    padding-top: 3em;
+}
+
+.listas a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.listas li {
+    padding-bottom: 1rem;
+    color: white;
+    list-style-type: disc;
+} 
+
+.listas {
+    margin: 2rem;
+}
+
+
+/* MAIN Contactos */
+
+.consulta {
+    display: block;
+}
+
+textarea {
+    width: 75%;
+}
+
+/* MAIN Araujo */
+
+.listas li a {
+    display: flex;
+    text-align: left;
+}
+
+
+/* VIDEOS ARAUJO */
+.videosMobile {
+    display: none;
+}
+
+.carruselDesktop {
+    text-align: center;
+}
+
+.carruselTablet {
+    display: none;
+}
+
+}

@@ -1,0 +1,44 @@
+/* Footer */
+
+footer {
+    border-top: 1px solid gray;
+    margin-top: 2rem;
+    display: flex;
+
+    .divFooter {
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+
+        .logoFooter {
+            width: 200px;
+            margin: 0;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+    }
+
+    .logos {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+        position: relative;
+        bottom: 50px;
+
+        .imagenFooter {
+            width: 35px;
+            padding: 0.5rem;
+        } 
+    }
+
+    p {
+        display: flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.7rem;
+        text-align: center;
+        position: relative;
+        bottom: 50px;   
+        justify-content: center; 
+    }
+}
