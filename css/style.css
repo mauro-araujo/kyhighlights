@@ -345,9 +345,11 @@ footer img {
       background-color: black
   }
 
+
+
   h1 {
-      display: none;
-  }
+      display:none ;
+      }
   
 
   /* NAV BOOTSTRAP */

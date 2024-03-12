@@ -1,0 +1,26 @@
+/* Reset */
+
+@import "./base/reset";
+
+
+/* Layout */
+
+
+    /* Header y nav */
+@import "./layout/navbar";
+@import "./layout/header";
+
+
+    /* All main */
+@import "./layout/main-index";
+@import "./layout/quienes-somos";
+@import "./layout/main-jugadores";
+@import "./layout/main-contactos";
+@import "./layout/main-araujo";
+
+
+
+    /* Footer */
+@import "./layout/footer";
+
+/* Media */
