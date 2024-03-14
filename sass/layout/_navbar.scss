@@ -1,0 +1,23 @@
+/* NAVBAR */
+
+.nav-js {
+    background-color: black !important;
+    color: white !important;
+
+    .mauro {
+        display: flex;
+        color: white; 
+        padding-top: 15px;
+        margin-left: 1rem; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        h1 {
+            text-align: center;
+        }
+
+        .imgMenu {
+            text-align: right;
+        }
+    }
+}
+

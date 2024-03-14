@@ -1,0 +1,32 @@
+header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid gray;
+
+    .imagenTexto {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin: auto;
+
+        .logo {
+            display: flex;
+            width: 300px;
+            
+        }
+
+        .tituloPC {
+            display: none;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 35px;
+        }
+    }
+
+    .lista-header {
+        display: none;
+    }
+}
+
+
+
+

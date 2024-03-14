@@ -1,0 +1,24 @@
+
+/* Main quienes somos */
+
+.logo {
+    display: flex;
+            width: 300px;
+}
+
+.quienessomos {
+
+    h1 {
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .parrafo {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        margin: 2rem;
+    }
+}
+
