@@ -30,6 +30,7 @@ body {
   text-align: right;
 }
 
+/* Header */
 header {
   margin-bottom: 2rem;
   border-bottom: 1px solid gray;
@@ -98,6 +99,7 @@ main .videosIndex iframe {
   margin: 2rem;
 }
 
+/* Main Jugadores */
 .jugadores .tituloJugadores {
   color: white;
   padding-bottom: 2rem;
