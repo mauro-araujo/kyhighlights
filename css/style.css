@@ -155,6 +155,7 @@ main .videosIndex iframe {
 }
 .contactos .mensaje fieldset .formulario textarea {
   font-size: larger;
+  width: 75%;
 }
 
 /* Main Araujo */

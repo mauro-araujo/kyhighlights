@@ -1,0 +1,54 @@
+/* /* /*  */
+
+/* Vista tablet */
+
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        .mauro {
+            justify-content: right !important;
+
+            h1 {
+                display: none;
+            }
+
+            .items {
+                text-align: right;
+            }
+        }
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        div {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            a {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                .logo{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+        
+      
+}
+
+
+
+
+
+
