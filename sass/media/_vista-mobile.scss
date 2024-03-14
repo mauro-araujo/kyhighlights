@@ -1,8 +1,6 @@
-/* /* /*  */
+/* Vista Mobile */
 
-/* Vista tablet */
-
-@media only screen and (min-width: 426px) and (max-width: 1023px) {
+@media only screen and (max-width: 426px) {
 
     .navbar {
         display: flex;
@@ -24,25 +22,11 @@
             display: none;
         }
     }
-  
 
-    main {
+    .araujo {
         .carruselCentrado {
             display: none;
         }
-
-        .carruselTablet {
-            iframe {
-                margin: 0.5rem;
-            }
-        }
     }
+
 }
-
-
-
-
-
-
-
-

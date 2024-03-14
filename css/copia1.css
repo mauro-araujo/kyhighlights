@@ -308,9 +308,7 @@ footer img {
 /* DESKTOP EN ADELANTE */
 @media only screen and (min-width: 1024px){
 
-    .navbar {
-        display: none;
-    }
+
 
     .headerSmarth {
         display: none;
@@ -331,9 +329,7 @@ footer img {
         margin: 10px;
     }
 
-    .videosIndex iframe {
-        margin: 1rem;
-    }
+   
     
     .parrafo {
         text-align: left;
@@ -344,13 +340,9 @@ footer img {
         height: 300px;
     }
 
-    iframe:hover {
-        transform: scale(1.1);
-    }
+    
 
-    .agrandar:hover {
-        transform: scale(1.1);
-    }
+
     /* main jugadores */
 .listaJugadores {  
     display: flex;

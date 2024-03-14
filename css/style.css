@@ -51,7 +51,23 @@ header .imagenTexto .tituloPC {
   font-size: 35px;
 }
 header .lista-header {
-  display: none;
+  display: flex;
+  justify-content: right;
+}
+header .lista-header ul {
+  display: flex;
+  text-decoration: none;
+  justify-content: right;
+}
+header .lista-header ul li {
+  list-style-type: none;
+  text-align: right;
+}
+header .lista-header ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: right;
+  padding: 1rem;
 }
 
 /* All main */
@@ -183,9 +199,6 @@ main .videosIndex iframe {
 .araujo .datosGenerales .trayectoria li {
   list-style-type: circle;
 }
-.araujo .carruselCentrado {
-  display: none;
-}
 .araujo .carruselTablet {
   text-align: center;
 }
@@ -247,5 +260,96 @@ footer {
 
 
 } */
+/* Madias-quaries */
+/* /* /*  */
+/* Vista tablet */
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  .navbar .mauro {
+    justify-content: space-between;
+  }
+  .navbar .mauro .items {
+    text-align: right;
+  }
+  header .lista-header {
+    display: none;
+  }
+  main .carruselCentrado {
+    display: none;
+  }
+  main .carruselTablet iframe {
+    margin: 0.5rem;
+  }
+}
+/* vista desktop +1024 */
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    display: none;
+  }
+  .listaJugadores {
+    display: flex;
+    justify-content: center;
+  }
+  .listaJugadores .listas {
+    text-align: center;
+    justify-content: center;
+  }
+  header .lista-header ul .agrandar:hover {
+    transform: scale(1.1);
+  }
+  main .videosIndex iframe {
+    width: 350px;
+    margin: 0.5rem;
+  }
+  main .videosIndex iframe:hover {
+    transform: scale(1.1);
+  }
+  .araujo .carruselCentrado {
+    display: block;
+    text-align: center;
+  }
+  .araujo .carruselCentrado h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .araujo .carruselCentrado iframe {
+    margin: 1rem;
+  }
+  .araujo .carruselCentrado iframe:hover {
+    transform: scale(1.1);
+  }
+  .araujo .carruselTablet {
+    display: none;
+  }
+}
+/* Vista Mobile */
+@media only screen and (max-width: 426px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+  }
+  .navbar .mauro {
+    justify-content: space-between;
+  }
+  .navbar .mauro .items {
+    text-align: right;
+  }
+  header .lista-header {
+    display: none;
+  }
+  .araujo .carruselCentrado {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

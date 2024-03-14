@@ -23,8 +23,29 @@ header {
     }
 
     .lista-header {
-        display: none;
+        display: flex;
+        justify-content: right;
+
+        ul {
+            display: flex;
+            text-decoration: none;
+            justify-content: right;
+
+            li {
+                list-style-type: none;
+                text-align: right;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    text-align: right;
+                    padding: 1rem;
+                }
+                
+            }
+        }
     }
+
 }
 
 
