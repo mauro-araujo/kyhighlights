@@ -1,8 +1,10 @@
 /* Main Araujo */
 
-main {
+.araujo {
+
     .tituloAraujo {
-        justify-content: center;
+        color: white;
+        text-align: center;
         margin-bottom: 2rem;
     }
 
@@ -15,6 +17,7 @@ main {
 
          ul {
             margin-left: 3rem;
+            margin-right: 1rem;
 
             li {
                 padding-bottom: 1rem;    
@@ -36,4 +39,17 @@ main {
          }
     }
     
+    .carruselCentrado {
+        display: none;
+    }
+
+    .carruselTablet {
+        text-align: center;
+
+        h2 {
+            color: white;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    }
 }

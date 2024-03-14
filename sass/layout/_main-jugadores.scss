@@ -1,18 +1,19 @@
-main {
+.jugadores {
 
     .tituloJugadores {
-        justify-content: center;
+        color: white;
         padding-bottom: 2rem;
+        text-align: center;
     }
 
-    .tituloJugadores {
+    .listaJugadores {
 
         .listas {
 
             li {
                 padding-bottom: 0.5rem;
                 text-align: center;
-                list-style-type: decimal;
+                list-style-type: none;
 
                 a {
                     text-decoration: none;

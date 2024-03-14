@@ -8,17 +8,25 @@ header {
         justify-content:center;
         margin: auto;
 
-        img {
+        .logo {
             display: flex;
             width: 300px;
             
         }
 
         .tituloPC {
+            display: none;
             color: white;
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-size: 35px;
         }
     }
 
+    .lista-header {
+        display: none;
+    }
 }
+
+
+
+

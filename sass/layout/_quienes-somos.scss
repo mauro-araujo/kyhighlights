@@ -1,9 +1,15 @@
 
 /* Main quienes somos */
 
-main {
+.logo {
+    display: flex;
+            width: 300px;
+}
 
-    .quinesSomos {
+.quienessomos {
+
+    h1 {
+        color: white;
         text-align: center;
         justify-content: center;
     }
@@ -15,3 +21,4 @@ main {
         margin: 2rem;
     }
 }
+

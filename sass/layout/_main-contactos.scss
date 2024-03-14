@@ -1,34 +1,31 @@
 /* Main contactos */
 
-main {
+.contactos {
     .tituloContactos {
         margin-bottom: 2rem;
+        margin-left: 2rem;
         align-items: center;
         color: white;
-        
     }
 
     section {
-
         .listaContactos {
-
+            text-align: left;
             li {
+                list-style-type: none;
+                text-align: left;
+
                 .logoTelefono {
                     width: 30px;
-                    margin-left: 2rem;
-
-                    .numero {
-
-                        a {
-                            text-decoration: none;
-                            color: white;
-                        }
                     }
+
+                a {
+                    text-decoration: none;
+                    color: white;
                 }
                 .logoMail {
                     width: 30px;
-                    margin-left: 2rem;
-
+                    
                     .mail {
                         text-decoration: none;
                         color: white;  
@@ -36,6 +33,8 @@ main {
                 }
             }
         }
+    
+    
     }
 
     .mensaje {
