@@ -62,6 +62,18 @@
             display: none;
         }
     }
+
+    footer {
+        
+        .logos {
+            
+            .imagenFooter {
+                width: 50px;
+
+                &:hover { 
+                    scale (1.2)
+                }
+            }
+        }
+    }
 }
-
-
