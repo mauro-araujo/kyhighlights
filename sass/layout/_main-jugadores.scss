@@ -10,27 +10,48 @@
 
     .listaJugadores {
 
-        .listas {
+        .listas1 {
 
             li {
                 padding-bottom: 0.5rem;
                 text-align: center;
                 list-style-type: none;
-
+                
                 a {
+                    display: inline-block;
                     text-decoration: none;
                     color: white;
-                }
 
-                a:hover {
-                    background-color: rgb(220, 217, 215);
-                    color: black;
+                    &:hover {
+                        background-color: rgb(220, 217, 215);
+                        color: black;
+                        transition: 1.5s;
+                        transform: translateX(-25px);              
+                    }
                 }
             }
-
         }
 
-    }
-    
+        .listas2 {
 
+            li {
+                padding-bottom: 0.5rem;
+                text-align: center;
+                list-style-type: none;
+                
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        background-color: rgb(220, 217, 215);
+                        color: black;
+                        transition: 1.5s;
+                        transform: translateX(25px);              
+                    }
+                }
+            }
+        }
+    }
 }

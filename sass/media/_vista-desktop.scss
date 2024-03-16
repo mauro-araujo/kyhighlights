@@ -21,6 +21,7 @@
             ul {
                 .agrandar:hover {
                     transform: scale(1.1);
+                    border-bottom: solid 1px gray;
                 }
             }
         }
@@ -39,6 +40,8 @@
             }
         }
     }
+
+
 
     .araujo {
         .carruselCentrado {
@@ -71,7 +74,7 @@
                 width: 50px;
 
                 &:hover { 
-                    scale (1.2)
+                    transform: scale(1.1);
                 }
             }
         }
