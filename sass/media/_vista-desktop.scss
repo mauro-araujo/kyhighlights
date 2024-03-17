@@ -6,15 +6,7 @@
         display: none;
     }
 
-    .listaJugadores{
-        display: flex;
-        justify-content: center;
-        
-        .listas {
-            text-align: center;
-            justify-content: center;
-        }
-    }
+  
 
     header {
         .lista-header {
@@ -42,7 +34,15 @@
         }
     }
 
-
+    .listaJugadores{
+        display: flex;
+        justify-content: center;
+        
+        .listas {
+            text-align: center;
+            justify-content: center;
+        }
+    }
 
     .araujo {
         .carruselCentrado {
