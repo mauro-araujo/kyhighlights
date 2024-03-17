@@ -1,3 +1,21 @@
+/* Mixin */
+
+@mixin estilo-central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin decoration-none {
+    text-decoration: none;
+    color: white;
+}
+
+/* Variables */
+$font-family: Georgia;
+
+
+
 /* Header */
 
 header {
@@ -6,10 +24,7 @@ header {
     border-bottom: 1px solid gray;
 
     .imagenTexto {
-        display: flex;
-        align-items: center;
-        justify-content:center;
-        margin: auto;
+        @include estilo-central();
 
         .logo {
             display: flex;
@@ -18,9 +33,9 @@ header {
         }
 
         .tituloPC {
-            display: none;
+           font-family: $font-family;
             color: white;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-family: $font-family;
             font-size: 35px;
         }
     }
@@ -40,8 +55,7 @@ header {
                 text-align: right;
 
                 a {
-                    text-decoration: none;
-                    color: white;
+                    @include decoration-none();
                     text-align: right;
                     padding: 1rem;
                 }

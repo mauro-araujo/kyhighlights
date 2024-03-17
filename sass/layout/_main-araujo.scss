@@ -1,8 +1,12 @@
+/* Varibales */
+$font-family: Georgia;
+
 /* Main Araujo */
 
 .araujo {
 
     .tituloAraujo {
+        font-family: $font-family;
         color: white;
         text-align: center;
         margin-bottom: 2rem;
@@ -12,6 +16,7 @@
         color: white;
 
         h2 {
+            font-family: $font-family;
             margin: 2rem;
          }
 
@@ -20,6 +25,7 @@
             margin-right: 1rem;
 
             li {
+                font-family: $font-family;
                 padding-bottom: 1rem;    
             }
         }
@@ -28,24 +34,25 @@
     .datosGenerales {
 
         h2 {
+            font-family: $font-family;
             margin: 2rem;
          }
 
          .trayectoria {
 
             li {
+                font-family: $font-family;
                 list-style-type: circle;
             }
          }
     }
 
     .carruselTablet {
+        
         text-align: center;
 
         h2 {
-            color: white;
-            text-align: center;
-            margin-bottom: 2rem;
+            @extend .tituloAraujo; 
         }
     }
 }

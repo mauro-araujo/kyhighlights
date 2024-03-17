@@ -8,12 +8,10 @@
 body {
   background-color: black;
 }
-body header {
-  background-image: linear-gradient(to top gray black);
-}
 
 /* Layout */
 /* Header y nav */
+/* Variable */
 /* NAVBAR */
 .nav-js {
   color: white !important;
@@ -23,7 +21,7 @@ body header {
   color: white;
   padding-top: 15px;
   margin-left: 1rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia;
 }
 .nav-js .mauro h1 {
   text-align: center;
@@ -32,6 +30,8 @@ body header {
   text-align: right;
 }
 
+/* Mixin */
+/* Variables */
 /* Header */
 header {
   background-image: linear-gradient(to top, black, gray);
@@ -42,16 +42,15 @@ header .imagenTexto {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
 }
 header .imagenTexto .logo {
   display: flex;
   width: 300px;
 }
 header .imagenTexto .tituloPC {
-  display: none;
+  font-family: Georgia;
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia;
   font-size: 35px;
 }
 header .lista-header {
@@ -85,6 +84,7 @@ main .videosIndex iframe {
   text-align: center;
 }
 
+/* Variable */
 /* Main quienes somos */
 .logo {
   display: flex;
@@ -92,19 +92,22 @@ main .videosIndex iframe {
 }
 
 .quienessomos h1 {
+  font-family: Georgia;
   color: white;
   text-align: center;
   justify-content: center;
 }
 .quienessomos .parrafo {
   color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia;
   text-align: center;
   margin: 2rem;
 }
 
+/* Variables */
 /* Main Jugadores */
 .jugadores .tituloJugadores {
+  font-family: Georgia;
   color: white;
   padding-bottom: 2rem;
   text-align: center;
@@ -118,6 +121,7 @@ main .videosIndex iframe {
   display: inline-block;
   text-decoration: none;
   color: white;
+  font-family: Georgia;
 }
 .jugadores .listaJugadores .listas1 li a:hover {
   background-color: rgb(220, 217, 215);
@@ -134,6 +138,7 @@ main .videosIndex iframe {
   display: inline-block;
   text-decoration: none;
   color: white;
+  font-family: Georgia;
 }
 .jugadores .listaJugadores .listas2 li a:hover {
   background-color: rgb(220, 217, 215);
@@ -142,8 +147,10 @@ main .videosIndex iframe {
   transform: translateX(25px);
 }
 
+/* Variables */
 /* Main contactos */
 .contactos .tituloContactos {
+  font-family: Georgia;
   margin-bottom: 2rem;
   margin-left: 2rem;
   align-items: center;
@@ -160,6 +167,7 @@ main .videosIndex iframe {
   width: 30px;
 }
 .contactos section .listaContactos li a {
+  font-family: Georgia;
   text-decoration: none;
   color: white;
 }
@@ -175,6 +183,7 @@ main .videosIndex iframe {
   margin-right: 1rem;
 }
 .contactos .mensaje fieldset legend {
+  font-family: Georgia;
   color: white;
   padding: 1rem;
   margin-left: 0.5rem;
@@ -199,8 +208,10 @@ main .videosIndex iframe {
   width: 75%;
 }
 
+/* Varibales */
 /* Main Araujo */
-.araujo .tituloAraujo {
+.araujo .tituloAraujo, .araujo .carruselTablet h2 {
+  font-family: Georgia;
   color: white;
   text-align: center;
   margin-bottom: 2rem;
@@ -209,6 +220,7 @@ main .videosIndex iframe {
   color: white;
 }
 .araujo .datos h2 {
+  font-family: Georgia;
   margin: 2rem;
 }
 .araujo .datos ul {
@@ -216,24 +228,23 @@ main .videosIndex iframe {
   margin-right: 1rem;
 }
 .araujo .datos ul li {
+  font-family: Georgia;
   padding-bottom: 1rem;
 }
 .araujo .datosGenerales h2 {
+  font-family: Georgia;
   margin: 2rem;
 }
 .araujo .datosGenerales .trayectoria li {
+  font-family: Georgia;
   list-style-type: circle;
 }
 .araujo .carruselTablet {
   text-align: center;
 }
-.araujo .carruselTablet h2 {
-  color: white;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
 /* Footer */
+/* Mixin */
+/* Variables */
 /* Footer */
 footer {
   background-image: linear-gradient(to top, gray, black);
@@ -265,27 +276,15 @@ footer .logos .imagenFooter {
 }
 footer .copy {
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia;
   font-size: 0.7rem;
-  text-align: center;
   position: relative;
   bottom: 50px;
-  justify-content: center;
 }
 
-/* 
-footer {
-
-    display: flex;
-
-
-
-
-    }
-
-
-} */
 /* Madias-quaries */
 /* /* /*  */
 /* Vista tablet */
@@ -323,14 +322,6 @@ footer {
   .navbar {
     display: none;
   }
-  .listaJugadores {
-    display: flex;
-    justify-content: center;
-  }
-  .listaJugadores .listas {
-    text-align: center;
-    justify-content: center;
-  }
   header .lista-header ul .agrandar:hover {
     transform: scale(1.1);
     border-bottom: solid 1px gray;
@@ -341,6 +332,14 @@ footer {
   }
   main .videosIndex iframe:hover {
     transform: scale(1.1);
+  }
+  .listaJugadores {
+    display: flex;
+    justify-content: center;
+  }
+  .listaJugadores .listas {
+    text-align: center;
+    justify-content: center;
   }
   .araujo .carruselCentrado {
     display: block;

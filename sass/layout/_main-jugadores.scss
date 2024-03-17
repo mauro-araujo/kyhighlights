@@ -1,8 +1,18 @@
+/* Variables */
+$font-family: Georgia;
+
+
 /* Main Jugadores */
+
+@mixin decoration-none {
+    text-decoration: none;
+    color: white;
+}
 
 .jugadores {
 
     .tituloJugadores {
+        font-family: $font-family;
         color: white;
         padding-bottom: 2rem;
         text-align: center;
@@ -19,8 +29,8 @@
                 
                 a {
                     display: inline-block;
-                    text-decoration: none;
-                    color: white;
+                    @include decoration-none(); 
+                    font-family: $font-family;
 
                     &:hover {
                         background-color: rgb(220, 217, 215);
@@ -41,8 +51,8 @@
                 
                 a {
                     display: inline-block;
-                    text-decoration: none;
-                    color: white;
+                    @include decoration-none(); 
+                    font-family: $font-family;
 
                     &:hover {
                         background-color: rgb(220, 217, 215);

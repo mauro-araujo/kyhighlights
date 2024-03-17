@@ -1,5 +1,14 @@
-/* Footer */
+/* Mixin */
+@mixin estilo-central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+/* Variables */
+$font-family: Georgia;
+
+/* Footer */
 
 footer {
    background-image: linear-gradient(to top, gray, black);
@@ -35,26 +44,11 @@ footer {
     }
 
     .copy {
-        display: flex;
+        @include estilo-central;
         color: white;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: $font-family;
         font-size: 0.7rem;
-        text-align: center;
         position: relative;
         bottom: 50px;   
-        justify-content: center; 
     }
 }
-
-/* 
-footer {
-
-    display: flex;
-
-
-
-        
-    }
-
-    
-} */

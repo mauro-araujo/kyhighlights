@@ -1,3 +1,6 @@
+/* Variable */
+$font-family: Georgia;
+
 
 /* Main quienes somos */
 
@@ -9,6 +12,7 @@
 .quienessomos {
 
     h1 {
+        font-family: $font-family;
         color: white;
         text-align: center;
         justify-content: center;
@@ -16,7 +20,7 @@
 
     .parrafo {
         color: white;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: $font-family;
         text-align: center;
         margin: 2rem;
     }
