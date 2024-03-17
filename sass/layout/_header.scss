@@ -1,4 +1,7 @@
+/* Header */
+
 header {
+    background-image: linear-gradient(to top, black,gray);
     margin-bottom: 2rem;
     border-bottom: 1px solid gray;
 
@@ -23,8 +26,30 @@ header {
     }
 
     .lista-header {
-        display: none;
+        display: flex;
+        justify-content: right;
+        margin-right: 10px;
+
+        ul {
+            display: flex;
+            text-decoration: none;
+            justify-content: right;
+
+            li {
+                list-style-type: none;
+                text-align: right;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    text-align: right;
+                    padding: 1rem;
+                }
+                
+            }
+        }
     }
+
 }
 
 
