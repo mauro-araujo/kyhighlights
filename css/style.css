@@ -76,6 +76,7 @@ header .lista-header ul li a {
 /* All main */
 /* main index */
 main .videosIndex {
+  margin: 2rem;
   text-align: center;
   justify-content: center;
 }
