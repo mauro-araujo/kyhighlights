@@ -473,6 +473,9 @@ footer .copy {
   header {
     background-image: none;
   }
+  header .imagenTexto h2 {
+    display: none;
+  }
   header .lista-header {
     display: none;
   }
