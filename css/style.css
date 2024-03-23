@@ -76,7 +76,6 @@ header .lista-header ul li a {
 /* All main */
 /* main index */
 main .videosIndex {
-  margin: 2rem;
   text-align: center;
   justify-content: center;
 }
@@ -410,6 +409,9 @@ footer .copy {
   header .lista-header ul .agrandar:hover {
     transform: scale(1.1);
     border-bottom: solid 1px gray;
+  }
+  main .videosIndex {
+    margin: 2rem;
   }
   main .videosIndex iframe {
     width: 350px;
